@@ -21,6 +21,7 @@ docker-compose up -d
 4 use root credentials to access phpmyadmin:
 - user : `root`
 - password : `password`
+
 or use the limited user to access `app_db` database:
 - user : `user`
 - password : `password`
