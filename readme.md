@@ -1,6 +1,15 @@
 # MySQL , PHPMyAdmin Docker-Compose
 
-## installation
+## Prerequisites
+you must have [docker-compose](https://docs.docker.com/compose/install/) to run this script
+
+and `docker-compose` requires  
+- `Docker Engine`
+- `Docker CLI`
+
+
+
+## Installation
 
 1 download the repose files
 ```bash
@@ -15,10 +24,14 @@ cd mysql_phpmyadmin_docker
 
 ```bash
 docker-compose up -d
-```
-3 run phpmyadmin using the [http://localhost:8081](http://localhost:8081)
 
-4 use root credentials to access phpmyadmin:
+
+## Usage
+
+```
+1 run phpmyadmin using the [http://localhost:8081](http://localhost:8081)
+
+2 use root credentials to access phpmyadmin:
 - user : `root`
 - password : `password`
 
