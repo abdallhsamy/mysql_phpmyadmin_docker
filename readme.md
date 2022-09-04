@@ -16,7 +16,7 @@ cd mysql_phpmyadmin_docker
 ```bash
 docker-compose up -d
 ```
-3 run phpmyadmin using the (http://localhost:8081/)[http://localhost:8081/]
+3 run phpmyadmin using the [http://localhost:8081](http://localhost:8081)
 
 4 use root credentials to access phpmyadmin:
 - user : `root`
